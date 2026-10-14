@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Form Tìm kiếm Google</title>
+</head>
+<body>
+    <h1>Tìm kiếm với Google</h1>
+
+    <!-- Form tìm kiếm gửi dữ liệu sang Google Search bằng phương thức GET -->
+    <form action="https://www.google.com.vn/search" method="GET">
+        <input type="text" name="q" placeholder="Nhập từ khóa tìm kiếm..."/>
+        <input type="submit" value="Tìm kiếm"/>
+    </form>
+
+    <hr/>
+
+    <!-- Trả lời câu hỏi phụ: Nếu muốn tìm kiếm bằng Bing -->
+    <h2>Tìm kiếm với Bing</h2>
+    <form action="https://www.bing.com/search" method="GET">
+        <input type="text" name="q" placeholder="Nhập từ khóa tìm kiếm trên Bing..."/>
+        <input type="submit" value="Tìm bằng Bing"/>
+    </form>
+</body>
+</html>
